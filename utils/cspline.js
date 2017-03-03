@@ -1,6 +1,6 @@
 ﻿/** Create a cardinal spline version of this geometry. 
-*	Original httpss://github.com/epistemex/cardinal-spline-js
-*	@see httpss://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
+*	Original https://github.com/epistemex/cardinal-spline-js
+*	@see https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
 *
 * @param {} options
 *	- tension {Number} a [0,1] number / can be interpreted as the "length" of the tangent, default 0.5

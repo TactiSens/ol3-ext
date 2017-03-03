@@ -8,7 +8,7 @@
 ol.style.FontSymbol.addDefs
 ({	"font":"fontmaki",
 	"name":"Maki",
-	"copyright":"CC0 - MapBox - httpss://www.mapbox.com/maki/",
+	"copyright":"CC0 - MapBox - https://www.mapbox.com/maki/",
 	"prefix":"maki"
 },
 {	"maki-bicycle": {"font":"fontmaki","code":59392,"name":"bicycle","search":"bicycle"},

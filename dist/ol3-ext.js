@@ -2,8 +2,8 @@
  * ol3-ext - A set of cool extensions for OpenLayers 3 (ol3).
  * @abstract ol3,openlayers,popup,menu,symbol,renderer,filter,canvas,interaction,split,statistic,charts,pie,LayerSwitcher,toolbar,animation
  * @version v1.0.0
- * @author Jean-Marc Viglino (httpss://github.com/Viglino)
- * @link httpss://github.com/Viglino/ol3-ext#,
+ * @author Jean-Marc Viglino (https://github.com/Viglino)
+ * @link https://github.com/Viglino/ol3-ext#,
  * @license CECILL-B
  */
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
@@ -5952,7 +5952,7 @@ ol.inherits(ol.interaction.LongTouch, ol.interaction.Interaction);
 	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
 	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
-	@link httpss://github.com/Viglino
+	@link https://github.com/Viglino
  */
  /**
  * @constructor
@@ -8194,7 +8194,7 @@ ol.source.Mapillary = function(opt_options)
 	this._limit = options.limit || 100;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='httpss://www.mapillary.com/'>Mapillary</a>" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://www.mapillary.com/'>Mapillary</a>" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -8223,9 +8223,9 @@ ol.source.Mapillary.prototype._loaderFn = function(extent, resolution, projectio
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// Commons API: for more info @see httpss://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+	// Commons API: for more info @see https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
 	var date = Date.now() - 6 * 30 * 24 * 60 * 60 * 1000;
-	var url = "httpss://a.mapillary.com/v2/search/im?client_id="
+	var url = "https://a.mapillary.com/v2/search/im?client_id="
 		+ this.get('clientId')
 		+ "&max_lat=" + bbox[3]
 		+ "&max_lon=" + bbox[2]
@@ -8563,7 +8563,7 @@ ol.source.WikiCommons = function(opt_options)
 	this._limit = options.limit || 100;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='httpss://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -8597,8 +8597,8 @@ ol.source.WikiCommons.prototype._loaderFn = function(extent, resolution, project
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// Commons API: for more info @see httpss://commons.wikimedia.org/wiki/Commons:API/MediaWiki
-	var url = "httpss://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
+	// Commons API: for more info @see https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+	var url = "https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
 		+ "&generator=geosearch&iiprop=timestamp|user|url|extmetadata|metadata|size&iiextmetadatafilter=LicenseShortName"
 		+ "&ggsbbox=" + bbox[3] + "|" + bbox[0] + "|" + bbox[1] + "|" + bbox[2]
 		+ "&ggslimit="+this._limit
@@ -10848,7 +10848,7 @@ ol.style.FontSymbol.addDefs(
 ol.style.FontSymbol.addDefs
 ({	"font":"fontmaki",
 	"name":"Maki",
-	"copyright":"CC0 - MapBox - httpss://www.mapbox.com/maki/",
+	"copyright":"CC0 - MapBox - https://www.mapbox.com/maki/",
 	"prefix":"maki"
 },
 {	"maki-bicycle": {"font":"fontmaki","code":59392,"name":"bicycle","search":"bicycle"},
@@ -11604,8 +11604,8 @@ ol.style.Shadow.prototype.getChecksum = function()
 };
 
 /** Create a cardinal spline version of this geometry. 
-*	Original httpss://github.com/epistemex/cardinal-spline-js
-*	@see httpss://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
+*	Original https://github.com/epistemex/cardinal-spline-js
+*	@see https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
 *
 * @param {} options
 *	- tension {Number} a [0,1] number / can be interpreted as the "length" of the tangent, default 0.5
@@ -11752,7 +11752,7 @@ ol.geom.LineString.prototype.calcCSpline_ = function(options)
 *	- image {boolean} true to get image info
 *	- loading {function} a callback function that take the number of image to process
 *	- onLoad {function} callback function that takes a geojson when loaded
-* @require Exif-JS [httpss://github.com/exif-js/exif-js] 
+* @require Exif-JS [https://github.com/exif-js/exif-js] 
 */
 var exif2geojson;
 
@@ -11827,7 +11827,7 @@ exif2geojson = function (img, options)
 * Export PDF :
 * @uses jspdf
 * by gingerik
-* httpss://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
+* https://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
 * https://gingerik.github.io/ol3/examples/export-pdf.html
 *
 * @param: {ol.Map} map to export

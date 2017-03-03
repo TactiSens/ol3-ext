@@ -10,7 +10,7 @@
 	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
 	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
-	@link httpss://github.com/Viglino
+	@link https://github.com/Viglino
  */
  /**
  * @constructor
