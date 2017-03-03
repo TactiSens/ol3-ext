@@ -1,6 +1,6 @@
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * OpenLayers 3 Layer Overview Control.
@@ -45,7 +45,7 @@ ol.control.Globe = function(opt_options)
 
 	
 
-// http://openlayers.org/en/latest/examples/sphere-mollweide.html ???
+// https://openlayers.org/en/latest/examples/sphere-mollweide.html ???
 
 	// Create a globe map
 	this.ovmap_ = new ol.Map(

@@ -2,13 +2,13 @@
  * ol3-ext - A set of cool extensions for OpenLayers 3 (ol3).
  * @abstract ol3,openlayers,popup,menu,symbol,renderer,filter,canvas,interaction,split,statistic,charts,pie,LayerSwitcher,toolbar,animation
  * @version v1.0.0
- * @author Jean-Marc Viglino (https://github.com/Viglino)
- * @link https://github.com/Viglino/ol3-ext#,
+ * @author Jean-Marc Viglino (httpss://github.com/Viglino)
+ * @link httpss://github.com/Viglino/ol3-ext#,
  * @license CECILL-B
  */
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc OpenLayers 3 Layer Switcher Control.
@@ -655,7 +655,7 @@ ol.control.LayerSwitcher.prototype.setprogress_ = function(layer)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** A simple push button control 
  *
@@ -715,12 +715,12 @@ ol.inherits(ol.control.TextButton, ol.control.Button);
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc 
  *   OpenLayers 3 Attribution Control integrated in the canvas (for jpeg/png export purposes).
- * @see http://www.kreidefossilien.de/webgis/dokumentation/beispiele/export-map-to-png-with-scale
+ * @see https://www.kreidefossilien.de/webgis/dokumentation/beispiele/export-map-to-png-with-scale
  *
  * @constructor
  * @extends {ol.control.Attribution}
@@ -832,12 +832,12 @@ ol.control.CanvasAttribution.prototype.drawAttribution_ = function(e)
 }
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc 
  *    OpenLayers 3 Scale Line Control integrated in the canvas (for jpeg/png export purposes).
- * @see http://www.kreidefossilien.de/webgis/dokumentation/beispiele/export-map-to-png-with-scale
+ * @see https://www.kreidefossilien.de/webgis/dokumentation/beispiele/export-map-to-png-with-scale
  *
  * @constructor
  * @extends {ol.control.ScaleLine}
@@ -957,7 +957,7 @@ ol.control.CanvasScaleLine.prototype.drawScale_ = function(e)
 }
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * OpenLayers 3 Title Control integrated in the canvas (for jpeg/png export purposes).
@@ -1103,7 +1103,7 @@ ol.control.CanvasTitle.prototype.drawTitle_ = function(e)
 }
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** ol.control.Cloud adds an old map effect on a canvas renderer. 
 * It colors the map, adds a parchment texture and compass onto the map. 
@@ -1322,7 +1322,7 @@ ol.control.Cloud.prototype.drawCloud_ = function (event)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Control bar for OL3
  * The control bar is a container for other controls. It can be used to create toolbars.
@@ -1517,7 +1517,7 @@ ol.control.Disable.prototype.disableMap = function(b)
 }
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * OpenLayers 3 Layer Overview Control.
@@ -1562,7 +1562,7 @@ ol.control.Globe = function(opt_options)
 
 	
 
-// http://openlayers.org/en/latest/examples/sphere-mollweide.html ???
+// https://openlayers.org/en/latest/examples/sphere-mollweide.html ???
 
 	// Create a globe map
 	this.ovmap_ = new ol.Map(
@@ -1695,7 +1695,7 @@ ol.control.Globe.prototype.setCenter = function (center, show)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * OpenLayers 3 Layer Switcher Control.
@@ -1746,7 +1746,7 @@ ol.control.LayerPopup.prototype.drawList = function(ul, layers)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc OpenLayers 3 Layer Switcher Control.
@@ -1809,7 +1809,7 @@ ol.control.LayerSwitcherImage.prototype.overflow = function(){};
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * OpenLayers 3 Layer Overview Control.
@@ -2064,7 +2064,7 @@ ol.control.Overview.prototype.setView = function(e)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc OpenLayers 3 Permalink Control.
@@ -2306,7 +2306,7 @@ ol.control.Permalink.prototype.layerChange_ = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** ol.control.PirateMap adds an old map effect on a canvas renderer. 
 * It colors the map, adds a parchment texture and compass onto the map. 
@@ -2537,7 +2537,7 @@ ol.control.PirateMap.prototype.drawPirate_ = function (event)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc OpenLayers 3 Profil Control.
@@ -2906,7 +2906,7 @@ ol.control.Profil.prototype.getImage = function(type, encoderOptions)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc OpenLayers 3 swipe Control.
@@ -3110,7 +3110,7 @@ ol.control.Swipe.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** ol.control.Target draw a target at the center of the map. 
 * @param {Object}
@@ -3253,7 +3253,7 @@ ol.control.Target.prototype.drawTarget_ = function (e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** A simple toggle control 
  * The control can be created with an interaction to control its activation.
@@ -3375,7 +3375,7 @@ ol.control.Toggle.prototype.getInteraction = function()
 };
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 /** 
@@ -3577,7 +3577,7 @@ ol.layer.Vector.prototype.animateFeature = function(feature, fanim)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3616,7 +3616,7 @@ ol.featureAnimation.Bounce.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3651,7 +3651,7 @@ ol.featureAnimation.Drop.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3677,7 +3677,7 @@ ol.featureAnimation.Fade.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3699,7 +3699,7 @@ ol.featureAnimation.None.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3713,7 +3713,7 @@ ol.inherits(ol.featureAnimation.Null, ol.featureAnimation);
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3770,7 +3770,7 @@ ol.featureAnimation.Path.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3813,7 +3813,7 @@ ol.featureAnimation.Shake.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3836,7 +3836,7 @@ ol.featureAnimation.Show.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 /** Slice animation: feature enter from left
@@ -3870,7 +3870,7 @@ ol.featureAnimation.Slide.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3904,7 +3904,7 @@ ol.featureAnimation.Teleport.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 /** Slice animation: feature enter from left
@@ -3950,7 +3950,7 @@ ol.featureAnimation.Throw.prototype.animate = function (e)
 
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 
@@ -3986,7 +3986,7 @@ ol.featureAnimation.Zoom.prototype.animate = function (e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 ol.filter = {};
 /**
@@ -4115,7 +4115,7 @@ ol.layer.Base.prototype.getFilters = function ()
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Mask drawing using an ol.Feature
 *	@requires ol.filter
@@ -4202,7 +4202,7 @@ ol.filter.Mask.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Clip layer or map 
 *	@requires ol.filter
@@ -4292,7 +4292,7 @@ ol.filter.Clip.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Colorize map or layer
 *	@requires ol.filter
@@ -4398,7 +4398,7 @@ ol.filter.Colorize.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Colorize map or layer
 *	@requires ol.filter
@@ -4432,7 +4432,7 @@ ol.filter.Composite.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Crop drawing using an ol.Feature
 *	@requires ol.filter
@@ -4463,7 +4463,7 @@ ol.filter.Crop.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2017 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Make a map or layer look like made of a set of Lego bricks.
 *	@requires ol.filter
@@ -4616,7 +4616,7 @@ ol.filter.Lego.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Add texture effects on maps or layers
 *	@requires ol.filter
@@ -4768,7 +4768,7 @@ ol.filter.Texture.prototype.postcompose = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Handles coordinates on the center of the viewport.
  * It can be used as abstract base class used for creating subclasses. 
@@ -5025,7 +5025,7 @@ ol.interaction.Clip.prototype.postcompose_ = function(e)
 };
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction rotate
  * @constructor
@@ -5331,7 +5331,7 @@ ol.interaction.DrawRegular.prototype.handleUpEvent_ = function(evt)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction DrawTouch :
  * @constructor
@@ -5888,7 +5888,7 @@ ol.interaction.Hover.prototype.handleMove_ = function(e)
 };
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction to handle longtouch events
  * @constructor
@@ -5943,16 +5943,16 @@ ol.inherits(ol.interaction.LongTouch, ol.interaction.Interaction);
 /*	
 	Water ripple effect.
 	Original code (Java) by Neil Wallis 
-	@link http://www.neilwallis.com/java/water.html
+	@link https://www.neilwallis.com/java/water.html
 	
 	Original code (JS) by Sergey Chikuyonok (serge.che@gmail.com)
-	@link http://chikuyonok.ru
-	@link http://media.chikuyonok.ru/ripple/
+	@link https://chikuyonok.ru
+	@link https://media.chikuyonok.ru/ripple/
 
 	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
-	@link https://github.com/Viglino
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	@link httpss://github.com/Viglino
  */
  /**
  * @constructor
@@ -6132,7 +6132,7 @@ ol.interaction.Ripple.prototype.postcompose_ = function(e)
 };
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction to snap to guidelines
  * @constructor
@@ -6352,7 +6352,7 @@ ol.interaction.SnapGuides.prototype.setDrawInteraction = function(drawi)
 };
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction split interaction for splitting feature geometry
  * @constructor
@@ -6597,7 +6597,7 @@ ol.interaction.Split.prototype.handleMoveEvent = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction splitter: acts as a split feature agent while editing vector features (LineString).
  * @constructor
@@ -6843,7 +6843,7 @@ ol.interaction.Splitter.prototype.onChangeFeature = function(e)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction synchronize
  * @constructor
@@ -6954,7 +6954,7 @@ ol.Map.prototype.showTarget = function(coord)
 };
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction splitter: acts as a split feature agent while editing vector features (LineString).
  * @constructor
@@ -7130,7 +7130,7 @@ ol.interaction.TouchCompass.prototype.drawCompass_ = function(e)
 };
 /*	Copyright (c) 2017 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Interaction TouchDraw: draw on touch device (shortcut).
  * @constructor
@@ -7612,7 +7612,7 @@ ol.interaction.Transform.prototype.handleUpEvent_ = function(evt)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	@classdesc
 	ol.source.DBPedia is a DBPedia layer source that load DBPedia located content in a vector layer.
@@ -7640,7 +7640,7 @@ ol.source.DBPedia = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url for DBPedia SPARQL */
-	this._url = options.url || "http://fr.dbpedia.org/sparql";
+	this._url = options.url || "https://fr.dbpedia.org/sparql";
 
 	/** Max resolution to load features  */
 	this._maxResolution = options.maxResolution || 100;
@@ -7652,7 +7652,7 @@ ol.source.DBPedia = function(opt_options)
 	this._limit = options.limit || 1000;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='http://dbpedia.org/'>DBpedia</a> CC-by-SA" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://dbpedia.org/'>DBpedia</a> CC-by-SA" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -7714,8 +7714,8 @@ ol.source.DBPedia.prototype._loaderFn = function(extent, resolution, projection)
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// SPARQL request: for more info @see http://fr.dbpedia.org/
-	query =	"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> "
+	// SPARQL request: for more info @see https://fr.dbpedia.org/
+	query =	"PREFIX geo: <https://www.w3.org/2003/01/geo/wgs84_pos#> "
 				+ "SELECT DISTINCT * WHERE { "
 				+ "?subject geo:lat ?lat . "
 				+ "?subject geo:long ?long . "
@@ -7825,7 +7825,7 @@ ol.style.dbPediaStyleFunction = function(options)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	ol.source.GeoImage is a layer source with georeferencement to place it on a map.
 	
@@ -8054,7 +8054,7 @@ ol.source.GeoImage.prototype.setScale = function(scale)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * Return a preview image of the source.
@@ -8158,7 +8158,7 @@ ol.layer.Group.prototype.getPreview = function(lonlat, resolution)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	@classdesc
 	ol.source.Mapillary is a source that load Wikimedia Commons content in a vector layer.
@@ -8182,7 +8182,7 @@ ol.source.Mapillary = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url for DBPedia SPARQL */
-	this._url = options.url || "http://fr.dbpedia.org/sparql";
+	this._url = options.url || "https://fr.dbpedia.org/sparql";
 
 	/** Max resolution to load features  */
 	this._maxResolution = options.maxResolution || 100;
@@ -8194,7 +8194,7 @@ ol.source.Mapillary = function(opt_options)
 	this._limit = options.limit || 100;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://www.mapillary.com/'>Mapillary</a>" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='httpss://www.mapillary.com/'>Mapillary</a>" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -8223,9 +8223,9 @@ ol.source.Mapillary.prototype._loaderFn = function(extent, resolution, projectio
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// Commons API: for more info @see https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+	// Commons API: for more info @see httpss://commons.wikimedia.org/wiki/Commons:API/MediaWiki
 	var date = Date.now() - 6 * 30 * 24 * 60 * 60 * 1000;
-	var url = "https://a.mapillary.com/v2/search/im?client_id="
+	var url = "httpss://a.mapillary.com/v2/search/im?client_id="
 		+ this.get('clientId')
 		+ "&max_lat=" + bbox[3]
 		+ "&max_lon=" + bbox[2]
@@ -8527,7 +8527,7 @@ ol.render3D.prototype.drawFeature3D_ = function(ctx, build)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	@classdesc
 	ol.source.WikiCommons is a source that load Wikimedia Commons content in a vector layer.
@@ -8551,7 +8551,7 @@ ol.source.WikiCommons = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url for DBPedia SPARQL */
-	this._url = options.url || "http://fr.dbpedia.org/sparql";
+	this._url = options.url || "https://fr.dbpedia.org/sparql";
 
 	/** Max resolution to load features  */
 	this._maxResolution = options.maxResolution || 100;
@@ -8563,7 +8563,7 @@ ol.source.WikiCommons = function(opt_options)
 	this._limit = options.limit || 100;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='httpss://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -8597,8 +8597,8 @@ ol.source.WikiCommons.prototype._loaderFn = function(extent, resolution, project
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// Commons API: for more info @see https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
-	var url = "https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
+	// Commons API: for more info @see httpss://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+	var url = "httpss://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
 		+ "&generator=geosearch&iiprop=timestamp|user|url|extmetadata|metadata|size&iiextmetadatafilter=LicenseShortName"
 		+ "&ggsbbox=" + bbox[3] + "|" + bbox[0] + "|" + bbox[1] + "|" + bbox[2]
 		+ "&ggslimit="+this._limit
@@ -8654,7 +8654,7 @@ ol.source.WikiCommons.prototype._loaderFn = function(extent, resolution, project
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc
@@ -8781,7 +8781,7 @@ ol.Overlay.Magnify.prototype.setView_ = function(e)
 }
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @classdesc
@@ -8985,7 +8985,7 @@ ol.Overlay.Popup.prototype.hide = function ()
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 
 *  Add a marker style to use with font symbols
 */
@@ -9333,7 +9333,7 @@ ol.style.FontSymbol.prototype.getChecksum = function()
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 *
 *  Add a chart style to display charts (pies or bars) on a map 
 */
@@ -9591,7 +9591,7 @@ ol.style.Chart.prototype.getChecksum = function()
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @requires 
@@ -9874,7 +9874,7 @@ ol.style.FillPattern.addPattern = function (title, options)
 }
 
 /** Patterns definitions
-	Examples : http://seig.ensg.ign.fr/fichchap.php?NOFICHE=FP31&NOCHEM=CHEMS009&NOLISTE=1&N=8
+	Examples : https://seig.ensg.ign.fr/fichchap.php?NOFICHE=FP31&NOCHEM=CHEMS009&NOLISTE=1&N=8
 */
 ol.style.FillPattern.prototype.patterns =
 {
@@ -10839,8 +10839,8 @@ ol.style.FontSymbol.addDefs(
 	"fa-fonticons": "\uf280"
 });
 /* Copyright (c) 2014 by Jean-Marc.Viglino [at]ign.fr
-* Dual-licensed under the CeCILL-B Licence (http://www.cecill.info/)
-* and the Beerware license (http://en.wikipedia.org/wiki/Beerware), 
+* Dual-licensed under the CeCILL-B Licence (https://www.cecill.info/)
+* and the Beerware license (https://en.wikipedia.org/wiki/Beerware), 
 *
 * Font definiton to use with fontsymbols
 */
@@ -10848,7 +10848,7 @@ ol.style.FontSymbol.addDefs(
 ol.style.FontSymbol.addDefs
 ({	"font":"fontmaki",
 	"name":"Maki",
-	"copyright":"CC0 - MapBox - https://www.mapbox.com/maki/",
+	"copyright":"CC0 - MapBox - httpss://www.mapbox.com/maki/",
 	"prefix":"maki"
 },
 {	"maki-bicycle": {"font":"fontmaki","code":59392,"name":"bicycle","search":"bicycle"},
@@ -10973,7 +10973,7 @@ ol.style.FontSymbol.addDefs
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 *
 *  Photo style for vector features
 */
@@ -11506,7 +11506,7 @@ CanvasRenderingContext2D.prototype.textPath = function (text, path)
 };
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 *
 *  Shadow image style for point vector features
 */
@@ -11604,8 +11604,8 @@ ol.style.Shadow.prototype.getChecksum = function()
 };
 
 /** Create a cardinal spline version of this geometry. 
-*	Original https://github.com/epistemex/cardinal-spline-js
-*	@see https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
+*	Original httpss://github.com/epistemex/cardinal-spline-js
+*	@see httpss://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
 *
 * @param {} options
 *	- tension {Number} a [0,1] number / can be interpreted as the "length" of the tangent, default 0.5
@@ -11752,7 +11752,7 @@ ol.geom.LineString.prototype.calcCSpline_ = function(options)
 *	- image {boolean} true to get image info
 *	- loading {function} a callback function that take the number of image to process
 *	- onLoad {function} callback function that takes a geojson when loaded
-* @require Exif-JS [https://github.com/exif-js/exif-js] 
+* @require Exif-JS [httpss://github.com/exif-js/exif-js] 
 */
 var exif2geojson;
 
@@ -11827,8 +11827,8 @@ exif2geojson = function (img, options)
 * Export PDF :
 * @uses jspdf
 * by gingerik
-* https://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
-* http://gingerik.github.io/ol3/examples/export-pdf.html
+* httpss://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
+* https://gingerik.github.io/ol3/examples/export-pdf.html
 *
 * @param: {ol.Map} map to export
 * @param: {Object=} {format, quality, dpi} 
@@ -11912,7 +11912,7 @@ $.fn.exportMap = function(map, options)
 
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 
 	Usefull function to handle geometric operations
 */
@@ -12000,7 +12000,7 @@ ol.geom.LineString.prototype.splitAt = function(pt, tol)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Pulse a point on postcompose
 *	@param {ol.coordinates} point to pulse
@@ -12062,7 +12062,7 @@ ol.Map.prototype.animExtent = function(extent, options)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Show a markup a point on postcompose
 *	@param {ol.coordinates} point to pulse
@@ -12140,7 +12140,7 @@ ol.Map.prototype.markup = function(coords, options)
 }
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Pulse a point on postcompose
 *	@param {ol.coordinates} point to pulse
@@ -12214,7 +12214,7 @@ ol.Map.prototype.pulse = function(coords, options)
 
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** Ordering function for ol.layer.Vector renderOrder parameter
 *	ol.ordering.fn (options)

@@ -3,8 +3,8 @@
 * Export PDF :
 * @uses jspdf
 * by gingerik
-* https://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
-* http://gingerik.github.io/ol3/examples/export-pdf.html
+* httpss://github.com/gingerik/ol3/blob/gh-pages/examples/export-pdf.html
+* https://gingerik.github.io/ol3/examples/export-pdf.html
 *
 * @param: {ol.Map} map to export
 * @param: {Object=} {format, quality, dpi} 

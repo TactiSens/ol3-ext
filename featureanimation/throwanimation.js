@@ -1,6 +1,6 @@
 /*
 	Copyright (c) 2016 Jean-Marc VIGLINO, 
-	released under the CeCILL license (http://www.cecill.info/).
+	released under the CeCILL license (https://www.cecill.info/).
 	
 */
 /** Slice animation: feature enter from left

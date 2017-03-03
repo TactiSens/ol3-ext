@@ -1,6 +1,6 @@
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	@classdesc
 	ol.source.WikiCommons is a source that load Wikimedia Commons content in a vector layer.
@@ -24,7 +24,7 @@ ol.source.WikiCommons = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url for DBPedia SPARQL */
-	this._url = options.url || "http://fr.dbpedia.org/sparql";
+	this._url = options.url || "https://fr.dbpedia.org/sparql";
 
 	/** Max resolution to load features  */
 	this._maxResolution = options.maxResolution || 100;
@@ -36,7 +36,7 @@ ol.source.WikiCommons = function(opt_options)
 	this._limit = options.limit || 100;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='httpss://commons.wikimedia.org/'>Wikimedia Commons</a>" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -70,8 +70,8 @@ ol.source.WikiCommons.prototype._loaderFn = function(extent, resolution, project
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// Commons API: for more info @see https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
-	var url = "https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
+	// Commons API: for more info @see httpss://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+	var url = "httpss://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=coordinates|imageinfo"
 		+ "&generator=geosearch&iiprop=timestamp|user|url|extmetadata|metadata|size&iiextmetadatafilter=LicenseShortName"
 		+ "&ggsbbox=" + bbox[3] + "|" + bbox[0] + "|" + bbox[1] + "|" + bbox[2]
 		+ "&ggslimit="+this._limit
