@@ -1,6 +1,6 @@
 ﻿/*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * @requires 
@@ -283,7 +283,7 @@ ol.style.FillPattern.addPattern = function (title, options)
 }
 
 /** Patterns definitions
-	Examples : http://seig.ensg.ign.fr/fichchap.php?NOFICHE=FP31&NOCHEM=CHEMS009&NOLISTE=1&N=8
+	Examples : https://seig.ensg.ign.fr/fichchap.php?NOFICHE=FP31&NOCHEM=CHEMS009&NOLISTE=1&N=8
 */
 ol.style.FillPattern.prototype.patterns =
 {

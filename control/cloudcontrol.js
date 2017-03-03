@@ -1,6 +1,6 @@
 /*	Copyright (c) 2016 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /** ol.control.Cloud adds an old map effect on a canvas renderer. 
 * It colors the map, adds a parchment texture and compass onto the map. 

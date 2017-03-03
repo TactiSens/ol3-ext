@@ -6,7 +6,7 @@
 *	- image {boolean} true to get image info
 *	- loading {function} a callback function that take the number of image to process
 *	- onLoad {function} callback function that takes a geojson when loaded
-* @require Exif-JS [https://github.com/exif-js/exif-js] 
+* @require Exif-JS [httpss://github.com/exif-js/exif-js] 
 */
 var exif2geojson;
 

@@ -1,6 +1,6 @@
 /*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 	
 	@classdesc
 	ol.source.DBPedia is a DBPedia layer source that load DBPedia located content in a vector layer.
@@ -28,7 +28,7 @@ ol.source.DBPedia = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url for DBPedia SPARQL */
-	this._url = options.url || "http://fr.dbpedia.org/sparql";
+	this._url = options.url || "https://fr.dbpedia.org/sparql";
 
 	/** Max resolution to load features  */
 	this._maxResolution = options.maxResolution || 100;
@@ -40,7 +40,7 @@ ol.source.DBPedia = function(opt_options)
 	this._limit = options.limit || 1000;
 	
 	/** Default attribution */
-	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='http://dbpedia.org/'>DBpedia</a> CC-by-SA" }) ];
+	if (!options.attributions) options.attributions = [ new ol.Attribution({ html:"&copy; <a href='https://dbpedia.org/'>DBpedia</a> CC-by-SA" }) ];
 
 	// Bbox strategy : reload at each move
     if (!options.strategy) options.strategy = ol.loadingstrategy.bbox;
@@ -102,8 +102,8 @@ ol.source.DBPedia.prototype._loaderFn = function(extent, resolution, projection)
 {	if (resolution > this._maxResolution) return;
 	var self = this;
 	var bbox = ol.proj.transformExtent(extent, projection, "EPSG:4326");
-	// SPARQL request: for more info @see http://fr.dbpedia.org/
-	query =	"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> "
+	// SPARQL request: for more info @see https://fr.dbpedia.org/
+	query =	"PREFIX geo: <https://www.w3.org/2003/01/geo/wgs84_pos#> "
 				+ "SELECT DISTINCT * WHERE { "
 				+ "?subject geo:lat ?lat . "
 				+ "?subject geo:long ?long . "

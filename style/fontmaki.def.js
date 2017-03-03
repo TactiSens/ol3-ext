@@ -1,6 +1,6 @@
 /* Copyright (c) 2014 by Jean-Marc.Viglino [at]ign.fr
-* Dual-licensed under the CeCILL-B Licence (http://www.cecill.info/)
-* and the Beerware license (http://en.wikipedia.org/wiki/Beerware), 
+* Dual-licensed under the CeCILL-B Licence (https://www.cecill.info/)
+* and the Beerware license (https://en.wikipedia.org/wiki/Beerware), 
 *
 * Font definiton to use with fontsymbols
 */
@@ -8,7 +8,7 @@
 ol.style.FontSymbol.addDefs
 ({	"font":"fontmaki",
 	"name":"Maki",
-	"copyright":"CC0 - MapBox - https://www.mapbox.com/maki/",
+	"copyright":"CC0 - MapBox - httpss://www.mapbox.com/maki/",
 	"prefix":"maki"
 },
 {	"maki-bicycle": {"font":"fontmaki","code":59392,"name":"bicycle","search":"bicycle"},

@@ -1,6 +1,6 @@
 ﻿/*	Copyright (c) 2015 Jean-Marc VIGLINO, 
 	released under the CeCILL-B license (French BSD license)
-	(http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
+	(https://www.cecill.info/licences/Licence_CeCILL-B_V1-en.txt).
 */
 /**
  * Return a preview image of the source.

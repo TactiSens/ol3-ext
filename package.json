@@ -9,7 +9,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Viglino/ol3-ext.git"
+    "url": "git+httpss://github.com/Viglino/ol3-ext.git"
   },
   "keywords": [
     "ol3",
@@ -25,12 +25,12 @@
     "toolbar",
     "animation"
   ],
-  "author": "Jean-Marc Viglino (https://github.com/Viglino)",
+  "author": "Jean-Marc Viglino (httpss://github.com/Viglino)",
   "license": "CECILL-B",
   "bugs": {
-    "url": "https://github.com/Viglino/ol3-ext/issues"
+    "url": "httpss://github.com/Viglino/ol3-ext/issues"
   },
-  "homepage": "https://github.com/Viglino/ol3-ext#,",
+  "homepage": "httpss://github.com/Viglino/ol3-ext#,",
   "dependencies": {
   },
   "devDependencies": {

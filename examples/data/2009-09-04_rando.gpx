@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="(c)BCI Navigation"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns="http://www.topografix.com/GPX/1/1"
-xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+xmlns="https://www.topografix.com/GPX/1/1"
+xsi:schemaLocation="https://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
 <trkseg>
 <trkpt lat="43.621644" lon="5.824038">
